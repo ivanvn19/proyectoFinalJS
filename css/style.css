@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.encabezado, .contenedor .section1 .titulocd, .contenedor .aside .tituloc, .panoramicanoa h2, .galeriaNOA h2, .coleccionny h2, .refcolection h2, h2, .bigeyes h2, .girls h2, .carousel .carousel-caption p {
+  margin-left: 2rem;
+  padding: 2rem;
+  font-family: "Roboto Flex", sans-serif;
+  text-shadow: 5px 3 1 black; }
+
+.titulo, .titulo-index, .titulo-digitalhome, .carousel .carousel-caption h5, .titulo-bio {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  letter-spacing: 1.5; }
+
+.transformacion, .panoramicanoa img, .coleccionny img, .refcolection img, .digitaldestacada a img, .digital_colecciones a img, .bigeyes img, .girls img, .card {
+  transition: all 500ms ease; }
+  .transformacion:hover, .panoramicanoa img:hover, .coleccionny img:hover, .refcolection img:hover, .digitaldestacada a img:hover, .digital_colecciones a img:hover, .bigeyes img:hover, .girls img:hover, .card:hover {
+    transform: scale(1.2); }
+
+
+
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+  header {
+    padding: 0 20px; }
+    header .navbar-nav {
+      display: flex; }
+      header .navbar-nav .nav-item {
+        list-style: none;
+        justify-content: space-around; }
+        header .navbar-nav .nav-item .nav-link {
+          text-decoration: none;
+          font-family: "Anton", sans-serif;
+          font-size: x-large;
+          color: black; }
+          header .navbar-nav .nav-item .nav-link:hover {
+            background-color: black;
+            color: aliceblue; }
+
+.navbar-brand{
+  width: 150px;
+  
+}
+.container{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h5{
+  color:black
+}
+p{
+  color:black
+}
+
+.producto{
+  width: 250px;
+  height: 250px;
+  justify-content: center auto;
+  padding-left: 0.5rem;
+} 
+img{
+  width: 100%;
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+}
+
+
+.Card-equipo{
+  width: 450;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  margin-bottom: 10px;
+  background-color: white;
+  border: solid 2px; color:yellow;
+} 
+
+img{
+  width: 100%;
+} 
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family:"Roboto Flex", sans-serif; 
+    margin: 10px;
+    }
+div .xjornada{
+  background-color: yellow;
+}
+.cottitulo{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+}
+
+.cotp{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+}
+.rest{
+  margin:2rem;
+  padding: 2rem;
+} 
+.estudiante{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+}
+.jornadascantidad{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+}
+.sub{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+  background-color: aquamarine;
+}
+
+.show{
+  display: block;
+  width: 100%;
+}
+.not-show{
+ display: none;
+}
+.botonlimpiar{
+  display: flex;
+  align-items: center;
+  align-content: center auto;
+  padding: 2rem;
+  margin-left: 25rem;
+  justify-content: center auto;
+  text-align: center auto;
+  color:aliceblue;
+  font-family:"Roboto Flex", sans-serif; 
+  margin: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+.show{
+  display: block;
+  
+}
+.notShow{
+  display: none;
+
+}
+
+.pedido{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pedido .texto{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+align-items: center;
+}
+.resultadototal{
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+  font-size: 2rem;
+}
+.jonrnadas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+.calcular{
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.dulce{ 
+  background-image:url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148833155.jpg?w=2000);
+  width: 450px;
+  height: 300px;
+}
+.dulce button{
+  background-color: black;
+ }
+
+
+
+@media screen and (max-width: 320px) {
+  
+  .card img {
+    width: 150px;
+    align-items: center auto;
+    align-content: center auto;
+    justify-content: center auto; }
+  .card .card-body {
+    align-items: center auto;
+    align-content: center auto;
+    justify-content: center auto; }
+  }    
+  
+
